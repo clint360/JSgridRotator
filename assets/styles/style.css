@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system;
+  font-size: 120%;
+  font-weight: 500;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 60%;
+  margin: auto;
+  justify-self: center;
+  font-size: 200%;
+  color: white;
+}
+
+.button {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10% 5%;
+  background: linear-gradient(50deg, rgba(255,255,255,0.15) 0%, rgb(0, 0, 0) 100%), radial-gradient(at top center, rgba(131, 129, 129, 0.589) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background-blend-mode: darken;
+}
+
+.button:hover {
+  background: linear-gradient(90deg, rgba(255,255,255,0.15) 0%, rgb(19, 1, 1) 100%), radial-gradient(at top center, rgba(131, 129, 129, 0.589) 0%, rgba(0,0,0,0.40) 120%) #989898;
+}
+
