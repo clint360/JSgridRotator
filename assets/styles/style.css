@@ -38,7 +38,7 @@ body {
   justify-self: center;
   font-size: 200%;
   color: white;
-  border: 5px solid skyblue;
+  border: 5px solid rgb(132, 201, 228);
   box-shadow: rgba(255, 255, 255, 0.3) 0px 19px 38px, rgba(255, 255, 255, 0.22) 0px 15px 12px;
 }
 
